@@ -164,12 +164,34 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "up",
+                    "id": "98662ba5-5d7a-4e18-bc8f-a4075ad73a2b",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "M&K2;M&K1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "down",
                     "id": "c1401fb8-42e6-4104-8865-d00136e69543",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "M&K1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "b85d0004-c9ee-41ba-aadb-615152110a5b",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "M&K2",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -186,12 +208,34 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "left",
+                    "id": "977162d5-14fd-4179-89da-4e8d0bee787c",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "M&K2",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "right",
                     "id": "27ad6d59-7ed2-4cb5-974a-44b9b81a4395",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "M&K1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "0310d944-633c-4b9c-9de3-aaf1f2cff874",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "M&K2",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -435,6 +479,22 @@
             "devices": [
                 {
                     "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "M&K2",
+            "bindingGroup": "M&K2",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
                     "isOptional": false,
                     "isOR": false
                 }
